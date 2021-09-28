@@ -20,7 +20,12 @@ Page({
       fail: console.error
     })
   },
-  
+  //国庆节南开头像生成器
+  gotoNationalDay:function(){
+    wx.navigateTo({
+      url: '/pages/NationalDay/NationalDay',
+    })
+  },
   // 2021目标
   gotoHello2021: function(){
     wx.navigateTo({

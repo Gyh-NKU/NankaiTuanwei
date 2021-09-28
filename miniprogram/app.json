@@ -64,7 +64,8 @@
     "pages/Hello2021/Hello2021",
     "pages/Hello2021/answer/answer",
     "pages/Hello2021/avatar/avatar",
-    "pages/Hello2021/poster/poster"
+    "pages/Hello2021/poster/poster",
+    "pages/NationalDay/NationalDay"
   ],
   "window": {
     "backgroundTextStyle": "light",

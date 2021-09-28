@@ -1,0 +1,9 @@
+.national{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.national image{
+    width: 250rpx;
+    height: 250rpx;
+}

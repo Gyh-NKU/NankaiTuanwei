@@ -1,0 +1,89 @@
+/* 生成后的遮罩页面 */
+.image-holder {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.534);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+/* 生成后的头像 */
+.avatar {
+  display: block;
+  width: 60vw;
+  height: 60vw;
+  border-radius: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+  z-index: 10;
+}
+
+.avatar-plus {
+  display: block;
+  width: 60vw;
+  height: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+  z-index: 10;
+}
+
+/* 头像画布放置在可视区域外 */
+.avatar-canvas {
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  top: 9999px;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.select-item{
+  width: 40vw;
+  height: 40vw;
+  border-radius: 2vw;
+}
+
+.not-select{
+  width: 30vw;
+  height: 30vw;
+  border-radius: 1vw;
+  margin-top: 5vw;
+}
+
+.swiper{
+  height: 40vw;
+}
+
+.show{
+  display: inline;
+}
+page{
+  background-image: url('https://6e61-nankaituanwei-j5pm1-1257843133.tcb.qcloud.la/resources/NationalDay/background/background.jpg?sign=44d1bcf47df6ad3abec23ba290fb2a8a&t=1632830251');
+  background-position: bottom;
+  background-size: cover;
+}
+
+.bar-button{
+  background-color: #c3272b;
+}
+.bar-button__hover{
+  background-color: #9d2933;
+}
+.return-button{
+  background-color: #aaaaaa;
+}
+.return-button__hover{
+  background-color: #919191;
+}

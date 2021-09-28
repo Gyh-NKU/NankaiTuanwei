@@ -11,6 +11,12 @@
   </view>
 </view>
 <view class='container'>
+  <button class='block-button national' bindtap='gotoNationalDay'>
+    <image class='button-image' src='cloud://nankaituanwei-j5pm1.6e61-nankaituanwei-j5pm1-1257843133/resources/NationalDay/cover/cover.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
   <button class='block-button' bindtap='gotoHello2021'>
     <image class='button-image' src='cloud://nankaituanwei-j5pm1.6e61-nankaituanwei-j5pm1-1257843133/resources/Hello2021/cover.png'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
